@@ -43,7 +43,7 @@ int main() {
 		{
 			while (countries[lineNum][charNum] != NULL)
 			{
-				if ( typeof(countries[lineNum][charNum]) == invalid)	//Checking if current character is of typedef invalid.
+				if ( typeof(countries[lineNum][charNum]) == invalid)	//Error here. This is when I realised bash was better.
 				{
 					printf("\nInvalid: %c\n", countries[lineNum][charNum]);
 				}
