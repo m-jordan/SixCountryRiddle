@@ -11,7 +11,7 @@ Try name them.
 Edit: I started learning bash and learned that was a far more efficient. 
 
 I used this line of code to get the final answer: 
-grep -v -i a anotherBiggerCountriesList.txt | grep -v -i b | grep -i -v d | grep -i -v o | grep -i -v p | grep -i -v q | grep -i -v r
+grep -v -i a countriesList3.txt | grep -v -i b | grep -i -v d | grep -i -v o | grep -i -v p | grep -i -v q | grep -i -v r
 
 
 
